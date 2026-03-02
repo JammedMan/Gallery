@@ -1,0 +1,236 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	max-width: 100vw;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	scrollbar-width: thin;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (min-width: 1024px) {
+	header {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		background-color: rgb(40, 40, 40);
+		color: whitesmoke;
+		justify-content: center;
+		align-items: center;
+		gap: 2.5vh;
+	}
+	
+	header h1 { 
+		margin: 1%;
+		font-size: 5.5vw;
+	}
+	
+	header p {
+		margin: 1%;
+		font-size: 2.25vw;
+	}
+	
+	main {
+		background-color: lightgrey;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	section {
+		background-color: whitesmoke;
+		color: rgb(40, 40, 40);
+		margin-top: 10vh;
+		margin-bottom: 10vh;
+		height: 80vh;
+		width: 100vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	section:nth-child(1) {
+		margin-top: 20vh;
+	}
+	
+	section div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+		padding-right: 2%;
+		margin-top: 2.5%;
+		margin-bottom: 2.5%;
+		border-right: 0.25vh solid rgb(40, 40, 40);
+	}
+
+	section div:nth-child(2) {
+		padding-left: 5%;
+		padding-right: 0;
+		border-right: 0 none;
+		justify-content: flex-start;
+	}
+
+	section div h2 {
+		margin-top: 5%;
+		margin-bottom: 10%;
+		font-size: 3vw;
+	}
+
+	section div p {
+		height: fit-content;
+		font-size: 1.5vw;
+		text-align: justify;
+	}
+
+	img {
+		max-width: 90%;
+		max-height: 90%;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		height: 30vh;
+		background-color: rgb(40, 40, 40);
+		color: whitesmoke;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	footer h3 {
+		font-size: 2.5vw;
+		margin: 0;
+	}
+
+	footer div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer p {
+		font-size: 1vw;
+	}
+
+	footer div p {
+		font-size: 1.5vw;
+	}
+}
+
+@media (max-width: 1023px) {
+	header {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		background-color: rgb(40, 40, 40);
+		color: whitesmoke;
+		justify-content: center;
+		align-items: center;
+		gap: 2.5vh;
+	}
+	
+	header h1 { 
+		font-size: 8vw;
+	}
+	
+	header p {
+		font-size: 4vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
+		text-align: center;
+	}
+	
+	main {
+		background-color: lightgrey;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	section {
+		background-color: whitesmoke;
+		color: rgb(40, 40, 40);
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+		height: 100vh;
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section:nth-child(1) {
+		margin-top: 10vh;
+	}
+	
+	section div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 50%;
+		width: 90%;
+		padding-bottom: 2%;
+		margin-top: 2.5%;
+		margin-bottom: 2.5%;
+		border-bottom: 0.25vh solid rgb(40, 40, 40);
+	}
+
+	section div:nth-child(2) {
+		padding-right: 0;
+		border-bottom: 0 none;
+		justify-content: flex-start;
+	}
+
+	section div h2 {
+		margin-top: 5%;
+		margin-bottom: 5%;
+		font-size: 7vw;
+	}
+
+	section div p {
+		height: fit-content;
+		font-size: 3.5vw;
+		text-align: justify;
+	}
+
+	img {
+		max-width: 90%;
+		max-height: 90%;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		height: 30vh;
+		background-color: rgb(40, 40, 40);
+		color: whitesmoke;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	footer h3 {
+		font-size: 5vw;
+		margin: 0;
+	}
+
+	footer div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer p {
+		font-size: 2.5vw;
+	}
+
+	footer div p {
+		font-size: 3vw;
+	}
+}
