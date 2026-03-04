@@ -94,7 +94,7 @@ body {
 	footer {
 		display: flex;
 		flex-direction: column;
-		height: 30vh;
+		height: 40vh;
 		background-color: rgb(40, 40, 40);
 		color: whitesmoke;
 		justify-content: space-evenly;
